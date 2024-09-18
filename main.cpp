@@ -1,14 +1,9 @@
 #include <iostream>
-#include "controller/Calc.cpp"
+#include "view/app.cpp"
 
 int main() {
     
-    Calc calculadora = Calc();
-
-    std::cout << "Enter first number: " << std::endl;
-    double a;
-    std::cin >> a;
-    calculadora.setA(a);
+    app();
 
     return 0;
 }
